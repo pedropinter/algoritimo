@@ -2,19 +2,18 @@
 //negativo ou igual a zero. Exiba a mensagem correspondente.
 
 const readline = require('readline');
-const zero = 18
+const zero = 0
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
 
 rl.question('Digite um numero: ', (numero) => {
-    if (idade >= maiordeidadee){
-        console.log('Voce é maior de idade')
+    if (numero > zero){
+        console.log('Esse numero é positivo')
     }   else {
-            console.log('Voce é menor de idade')}
+            console.log('Esse numero é negativo')}
     
         rl.close();
 
 });
-    
